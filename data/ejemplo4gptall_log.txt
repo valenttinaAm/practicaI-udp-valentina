@@ -1,0 +1,27 @@
+
+************************ setup ************************
+  file loaded:		../../benchs/optim/generados/ejemplo4gptall
+  rel-eps-f:		0.0100001	(relative precision on objective)
+  abs-eps-f:		1.00001e-06	(absolute precision on objective)
+  symbolic simpl level:	1	
+  output COV file:	../..cov
+  timeout:		20s
+*******************************************************
+
+running............
+
+[31m time limit 20s. reached 
+[0m
+ f* in	[-4.08649224022e-161,inf]
+	(best bound)
+
+ x* =	--
+	(no feasible point found)
+
+ relative precision on f*:	inf
+ absolute precision on f*:	inf
+ cpu time used:			19.9995000001s
+ number of cells:		66364
+
+ results written in ../..cov
+ (old file saved in ../..cov~)

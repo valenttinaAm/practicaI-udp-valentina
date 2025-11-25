@@ -1,0 +1,11 @@
+variables
+x1 in [0, 100];
+x2 in [0, 100];
+x3 in [0, 100];
+x4 in [0, 100];
+minimize (5*x1 + x2 - 6.789*x3^2 + 2.345*x4);
+constraints
+- 2*x1 + 3*x2 <= 4;
+- ln(x3/0.1) - 5*x4 >= 3;
+x1 + x2 = 75;
+end
